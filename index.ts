@@ -15,7 +15,7 @@ if (SHUFFLE_KEYS) {
 
 const tournamentID = await select({
   message: "Выберите номер турнира:",
-  choices: [0, 1, 2, 3, 4].map((value) => ({
+  choices: [0, 1, 2, 3, 4, 5, 6].map((value) => ({
     name: `TOURNAMENT ${value}`,
     value,
   })),
